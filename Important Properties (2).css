@@ -1,0 +1,148 @@
+CSS Most Important Properties
+
+
+/* Colors & Background */
+color: white;
+background: black;
+background-color: #f5f5f5;
+background-image: url("image.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+/* Typography */
+font-size: 18px;
+font-family: Arial, sans-serif;
+font-weight: bold;
+font-style: italic;
+font-variant: small-caps;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+text-shadow: 2px 2px 5px gray;
+line-height: 1.6;
+letter-spacing: 2px;
+word-spacing: 5px;
+
+/* Box Model */
+width: 300px;
+height: 200px;
+max-width: 100%;
+min-height: 100vh;
+
+margin: 20px;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+padding: 15px;
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-left: 15px;
+
+border: 2px solid black;
+border-radius: 10px;
+box-sizing: border-box;
+
+/* Display */
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: grid;
+display: none;
+
+/* Flexbox */
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: auto;
+gap: 20px;
+
+/* Grid */
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
+grid-column: span 2;
+grid-row: span 2;
+gap: 20px;
+
+/* Position */
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+
+top: 10px;
+right: 10px;
+bottom: 10px;
+left: 10px;
+z-index: 100;
+
+/* Overflow */
+overflow: hidden;
+overflow: auto;
+overflow: scroll;
+
+/* Shadow */
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+/* Opacity */
+opacity: 0.8;
+
+/* Cursor */
+cursor: pointer;
+
+/* Transform */
+transform: scale(1.1);
+transform: rotate(45deg);
+transform: translateX(50px);
+transform: translateY(20px);
+
+/* Transition */
+transition: all 0.3s ease;
+
+/* Animation */
+animation: slide 2s infinite;
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+/* Image */
+object-fit: cover;
+object-position: center;
+
+/* List */
+list-style: none;
+
+/* Visibility */
+visibility: hidden;
+
+/* Float & Clear */
+float: left;
+clear: both;
+
+/* Outline */
+outline: none;
+
+/* Resize */
+resize: none;
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
